@@ -1,6 +1,6 @@
 ---
 - name: Install Red Hat Insights client
-  hosts: app01.young.local app02.young.local app03.young.local db01.young.local db02.young.local idm.young.local 
+  hosts: all
   gather_facts: no
   tasks:
     - name: Install the Red Hat Insights client
